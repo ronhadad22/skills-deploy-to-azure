@@ -12,7 +12,6 @@ env:
   DOCKER_IMAGE_NAME: ronhadad22-azure-ttt
   AZURE_WEBAPP_NAME: ronhadad22-ttt-app
   ###############################################
-
 jobs:
   build:
     if: contains(github.event.pull_request.labels.*.name, 'stage')
